@@ -1,7 +1,7 @@
 import { useForm } from "react-hook-form";
 import { Link, useNavigate } from "react-router-dom";
-import AuthLayout from "../../layout/AuthLayout";
-import { signin } from "../../redux/slices/authSlice";
+import AuthLayout from "../../layout/AuthLayout.jsx";
+import { signin } from "../../redux/slices/AuthSlice.js";
 import { useDispatch } from "react-redux";
 
 export default function Signin() {

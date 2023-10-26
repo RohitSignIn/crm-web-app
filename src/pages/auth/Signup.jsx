@@ -1,10 +1,9 @@
-import { signup } from "../../redux/slices/authSlice";
-import AuthLayout from "../../layout/AuthLayout";
+import { signup } from "../../redux/slices/AuthSlice.js";
+import AuthLayout from "../../layout/AuthLayout.jsx";
 
-import { Controller, useForm } from "react-hook-form";
+import { useForm } from "react-hook-form";
 import { useDispatch } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
-import Select from "react-select";
 
 export default function Signup() {
   const {
